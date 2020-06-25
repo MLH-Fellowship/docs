@@ -34,3 +34,11 @@ Collision Meshes are invisible meshes containing an object, and are automaticall
 In 3D, a _skybox_ is a virtual cube with a texture (e.g. a sky, or a park, or mountains) that is the bounds of a virtual world. It essentially allows you to provide a background environment that the user sees all around them.
 
 In a multi-app case, care needs to be taken with skyboxes &mdash; if every app has its own skybox, they tend to obscure each other and 'take over'. This is why when developing your own [XRPKs](#xrpackages), you should usually have a _transparent skybox_!
+
+### Multi-app
+
+Webaverse uses XRPKs to run multiple spatial applications synchronously by using a runtime to load multiple application bundles.
+
+### AR in VR
+
+Webaverse technologies enable users to access Augmented Reality multitasking within any virtual reality environment. Specifically, Webaverse overlays spatial applications alongside existing Virtual Reality applications within SteamVR and Chrome.
